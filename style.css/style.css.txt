@@ -1,0 +1,85 @@
+/*background color */
+body {
+  background-color: rgb(247,244,239);
+  }
+/*border between the below sections  */
+header, nav, main, footer, section, div, aside {
+  border: 2px solid #000;
+} 
+  /* Link Colors */
+a:link    { color:  hsl(44, 100%, 25%);  }
+a:visited { color: hsl(204, 100%, 5%); }
+a:hover   { color: hsl(120, 100%, 35%); }
+a:active  { color: hsl(120, 100%, 15%); }
+
+/* color and test alignment for article, h1, h2, h3, h4, ol, p, li, and ul */
+h2, h3, h4, li, p, nav {
+  color:  rgb(52,38,40);
+  text-align: center;
+}
+/*Had to think of a way to get dots next to the list item */
+ul{
+
+  list-style-position:  inside;
+  padding: 0;
+}
+
+}
+/* paragraph font-size, text-align & font-family*/
+p{
+  font-size= 7px;
+  text-align: center;
+  font-family: veranda;  
+}
+/* header background color*/
+header {
+  background-color: rgb(70,47,0);
+}
+/*header  & H1 text as white and margin, font-size, font-family & padding */
+header h1 {
+  margin: 0;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size:52px;
+  /* text-align: center; */
+  padding: 40px 0 20px 20px;
+  text-align: center;
+}
+/*Changed header text to white and centered */
+h5 {
+  color:  white;
+  text-align: center;
+  height:  8px;
+}
+/*center text align and list styles are centered and inside */
+.center {
+  text-align: center;
+  list-style-position: inside;
+  position: relative;
+}
+/*repositioned the nav */
+nav {
+    
+    border: medium none;
+    border-radius: 0;
+    list-style: outside none none;
+    padding: 10px;
+    position: relative;
+}
+/*Used and override to adjust the paragraph and text settings */
+#justify {
+ text-align:  justify;
+ padding: 10px 45px 10px 45px;
+}
+/*the ol for contact was not centered when centered so realigned it
+with list-style and padding */
+#contact-links{
+  list-style-position: inside;
+  padding: 0 45px 0 38px;
+}
+/*used image center and padding helped with centering the image */
+img.center {
+display: block;
+padding: 0px 0 0px 261px;
+
+/*Next time I would start with the box method to construct a site */

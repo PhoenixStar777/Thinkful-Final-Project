@@ -1,0 +1,99 @@
+!DOCTYPE html>
+<!--DOCTYPE to indicate HTML 5 and standard html and head tags-->
+<html>
+<head>
+<!--metatags with stardard with keywords for SEO-->
+  <meta charset="utf-8" />
+  <meta name="description" content="Johnetta Matthews, Software Developer">
+  <meta name="keywords" content="Software Developer, HTML, CSS, Johnetta Matthews">
+  <meta name="author" content="Johnetta Matthews">
+  <meta name="viewport" content="width=device-width" />
+<!--title of website and standard css link to link css to page-->
+  <title>Johnetta Matthews - Software Developer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<!--header tag with div.  Also has h1 tag as an id to be used as an internal link along with h5 tag also end div and header tag-->
+  <header>
+  <div class="header">
+    <h1 id="top">Johnetta Matthews</h1>
+    <h5>Software Developer</h5>
+  </div>
+  </header>
+<!--Has main div and section tags. Next are the h3 tag and image link-->
+<body>
+<div class="main"> 
+<section> 
+  
+  <h3>Hi!  I'm Johnetta Matthews</h3>
+<!-- image link with width and alt to be centered - had to use css padding-->
+  <img src="images/johnetta-matthews2.jpg" width="150" alt="Johnetta Matthews" class= "center">
+  
+
+<p>I'm a Retired Air Force Military Marketing Director living near Kansas City, Missouri.
+</p> 
+<!-- Used an id on h2 tag to use as an internal link.  Also has hr break due to content change-->
+<hr> 
+<h2 id="intentions">Intentions</h2>
+<h4 align="center">As a former marketing professional, I'm interested in:</h4>
+<!--Used unordered list-->
+<ul>
+  <li>Creative web design and software.</li>
+  <li>Coding and working with teams.</li>
+  <li>Meeting coders from all over the world.</li> 
+</ul>
+	  
+<p>Please take a look at my website and feel free to Contact Me!</p> 
+
+<div class="article"> 
+
+<h2 id="about">About Johnetta </h2>
+<!-- Used id to justify text in css-->
+<p id="justify">After retiring as an Air Force Marketing Director for the United States Air Force Recruiting Service, I've worked as a Technical IT Recruiter 
+and College Recruitment Manager at an IT College. </p> 
+<p id="justify">During the mid 2000's to 2010, I hosted nearly 20 direct response websites that generated a monthly income and became very familiar with HTML.  I've been an entrepreneur since that time.</p>
+<p id="justify">As a student at Thinkful, I'm pursuing a long desired career of becoming a web and software developer and loving it.  I enjoy solving problems, which gives me a sense of accomplishment.</p>
+
+<p id="justify">If your looking to hire a new developer that believes in working hard and working as a team player, feel free to contact me.  I'm really looking forward to contributing to the synergy of a team.</p>
+<div>
+<!--Below used id to use area as an anchored link in website and used align center in h4 tag-->
+<h3 id="contact">Contact Johnetta</h3>
+
+<h4 align="center">
+  I'd love to hear from you.  Feel free to contact or follow me.</h4>
+<!--used id for ordered links to use padding to center in css.  Also used id for internal link/anchored link-->
+<ol id= "contact-links">
+ <li> <a href="http://www.linkedin.com/in/Johnetta-Matthews"  target="_blank"</a>LinkedIn</a>
+ <li> <a href="http://github.com/PhoenixStar777"  target="_blank"</a>GitHub</a>
+<!--closed all tags-->
+</ol>
+</div>
+</main>
+</body>
+<!--Below the footer and nab tags were used.  Also have footer with internal links to previous sections-->
+<footer>
+    <nav> <a href="#top">Top</a> | <a href="#intentions">Intentions</a> | <a href="#about">About</a> | <a href="#contact">Contact</a></nav>
+		<p>© Copyright 2021</p>
+	
+  </p>
+</footer>
+
+</html>
+
+<!--
+doctype, html, head, body, meta, title,
+ h1, h2, h3, p, link, ul, ol, img, a, hr
+The following CSS properties:
+
+ background, color, font-family, font-size,
+ *height, *margin, padding, text-align
+Semantic containers like main, article, and footer
+
+Styled links using pseudo-classes
+-->
+<!--HTML need main, *img, a (need links inserted)-->
+<!--CSS need all -->
